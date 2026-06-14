@@ -1,0 +1,18 @@
+# FractureNet-Ω 项目依赖
+# 安装命令: pip install -r requirements.txt
+
+# 数值计算核心
+numpy>=1.21.0
+scipy>=1.7.0
+
+# 数据处理
+pandas>=1.3.0
+
+# 可视化
+matplotlib>=3.4.0
+
+# 符号回归 (可选，阶段3使用)
+# pysr>=0.7.0  # 如遇安装问题，可注释此行
+
+# JIT加速 (可选)
+# numba>=0.55.0

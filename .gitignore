@@ -1,0 +1,47 @@
+# === Python cache ===
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# === Temp files ===
+*.tmp
+*.log
+_paper_text.txt
+mesh_preview_*.png
+
+# === Patent documents (private) ===
+patent/
+paper/
+
+# === Original paper PDF (copyright) ===
+改进的吴氏模型.pdf
+*.pdf
+
+# === Generated VTK/test output (large) ===
+vtk_output/
+vtk_3d/
+vtk_3d_test/
+examples_output/
+dataset_output/
+gnn_test_output/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+*.ps1
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === Conda ===
+*.conda
+
+# === Git ===
+.git/
