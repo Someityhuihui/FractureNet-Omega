@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-14T12:59:04.310951+00:00",
+  "results": {
+    "identifier": "{'params_shape': [4, 8], 'phys_residual': -0.027445323765277863}",
+    "discovery": "{'size_effect_r2': 0.0, 'formula': 'N/A'}",
+    "adaptation": "{'grl_shape': [4, 3, 128, 128], 'disc_output': [4, 2]}",
+    "validation": "{'checks': ['results']}",
+    "dataset": "{'n_1d_base': 20, 'n_1d_augmented': 60, 'd_profile_shape': [256]}"
+  }
+}

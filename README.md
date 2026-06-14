@@ -8,12 +8,14 @@ Reference: Jian-Ying Wu (2024) — *A generalized phase-field cohesive zone mode
 
 ## Overview
 
-FractureNet-Ω is a three-layer computational framework for the μPF-CZM:
+FractureNet-Ω is a **five-layer** computational framework for physics-informed fracture AI:
 
 ```
 Layer 1: 1D Analytical Solver     →  Exact crack profiles, F*-u* curves
-Layer 2: 2D Finite Element Solver  →  SENB benchmarks, Paraview VTK output
-Layer 3: Symbolic Regression       →  Automatic physics discovery
+Layer 2: 2D/3D Finite Element     →  SENB benchmarks, Paraview VTK, HPC
+Layer 3: Symbolic Regression       →  Automatic physics law discovery (R²=0.99999)
+Layer 4: AI Parameter Identifier   →  CNN extracts material/crack params from fields
+Layer 5: Unified Physics Model     →  Symbolic laws + Domain adaptation + Validation
 ```
 
 ---
